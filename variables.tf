@@ -10,25 +10,25 @@ variable "region" {
 variable "cluster_name" {
   description = "Cluster name"
   type = string
-  default = "scoutflo-deploy-test"
+  default     = "upsup-main-cluster"
 }
 
 variable "instance_type" {
   description = "Instance Type"
   type = string
-  default = "t2.small"
+  default     = "t2.micro"
 }
 
 variable "min_size" {
   description = "Min number of nodes"
   type = number
-  default = 1
+  default     = 1
 }
 
 variable "max_size" {
   description = "Max number of nodes"
   type = number
-  default = 3
+  default     = 2
 }
 
 variable "desired_size" {
